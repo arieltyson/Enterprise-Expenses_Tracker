@@ -17,6 +17,17 @@ An intuitive way to track expenses and visualise trends in money management !
 - ASP.NET Core MVC Template (Installable using Visual Studio Installer)
 - .NET 6.0 SDK
 
+### Frameworks
+
+- Microsoft.AspNetCore.App
+- Microsoft.NETCore.App
+
+### Packages
+
+- Microsoft.EntityFrameworkCore (6.0.25)
+- Microsoft.EntityFrameworkCore.SqlServer (6.0.25)
+- Microsoft.EntityFrameworkCore.Tools (6.o.25)
+
 ## Skills Demonstrated 🖌️
 
 This project provides a thorough depiction of the combination of User Interface best practices and the .NET Framework to create enterprise software.
