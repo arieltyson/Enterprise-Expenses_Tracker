@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace expense_tracker.Models
+namespace enterprise_expenses.Models
 {
     public class Transaction
     {
