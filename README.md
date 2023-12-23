@@ -16,6 +16,8 @@ An intuitive way to track expenses and visualise trends in money management !
 - Visual Studio 2022
 - ASP.NET Core MVC Template (Installable using Visual Studio Installer)
 - .NET 6.0 SDK
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
 
 ### Frameworks
 
