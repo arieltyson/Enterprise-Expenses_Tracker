@@ -12,6 +12,9 @@ var app = builder.Build();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
+// Connection string
+// Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

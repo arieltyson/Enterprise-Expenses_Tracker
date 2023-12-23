@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using enterprise_expenses.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace enterprise_expenses.Models
 {
