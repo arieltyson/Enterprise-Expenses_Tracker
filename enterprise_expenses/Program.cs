@@ -11,10 +11,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
 // Register Syncfusion License
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NAaF5cWWJCf1FpRmNGfV5ydOVFallUTndaUjOeQnxTdEZiW31dcXFQQ2FZVkNOWw==");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NAaF5cWWJCf1FpRmNGfV5yd0VFallUTndaUj0eQnxTdEZiW31dcXFQQ2FZVkN0Ww==");
 
 // Essential Studio 7-Day License Key
-// Ngo9BigBOggjHTQxAR8/V1NAaF5cWWJCf1FpRmNGfV5ydOVFallUTndaUjOeQnxTdEZiW31dcXFQQ2FZVkNOWw==
+// Ngo9BigBOggjHTQxAR8/V1NAaF5cWWJCf1FpRmNGfV5yd0VFallUTndaUj0eQnxTdEZiW31dcXFQQ2FZVkN0Ww==
 
 // Essential Studio 30-Day License Key
 // Ngo9BigBOggjHTQxAR8/V1NAaF5cWWJCf0x0R3xbf1x0ZFZMZVVbQXRPIiBoS35RdURhW3xfdXFcQ2NZUEJ2
