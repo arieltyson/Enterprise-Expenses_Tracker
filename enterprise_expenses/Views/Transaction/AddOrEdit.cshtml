@@ -1,13 +1,9 @@
 ﻿@model enterprise_expenses.Models.Transaction
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["PageTitle"] = Model.TransactionId == 0 ? "Add Transaction" : "Edit Transaction";
 }
 
-<h1>Create</h1>
-
-<h4>Transaction</h4>
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
