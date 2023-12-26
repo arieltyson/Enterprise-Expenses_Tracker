@@ -22,7 +22,7 @@ namespace enterprise_expenses.Models
         {
             get
             {
-                return $"{Title} {Icon}";
+                return $"{Icon} {Title}";
             }
         }
     }
