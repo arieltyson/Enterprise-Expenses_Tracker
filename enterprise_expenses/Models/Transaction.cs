@@ -9,7 +9,7 @@ namespace enterprise_expenses.Models
         public int TransactionId { get; set; }
 
         public int CategoryId { get; set; }
-        public Category Category { get; set; } // Navigation property to specify foreign key
+        public Category? Category { get; set; } // Navigation property to specify foreign key
 
         public int Amount { get; set; }
 
