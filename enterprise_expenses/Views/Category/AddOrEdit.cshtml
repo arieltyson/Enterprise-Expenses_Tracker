@@ -1,7 +1,7 @@
 ﻿@model enterprise_expenses.Models.Category
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["PageTitle"] = Model.CategoryId == 0 ? "Add Category" : "Edit Category";
 }
 
 <div class="row">
