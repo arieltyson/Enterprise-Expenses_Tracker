@@ -9,6 +9,7 @@ namespace enterprise_expenses.Models
         public int CategoryId { get; set; }
 
         [Column(TypeName = "nvarchar(50)")]
+        [Required(ErrorMessage = "This field is required.")]
         public string Title { get; set; }
 
         [Column(TypeName = "nvarchar(5)")]

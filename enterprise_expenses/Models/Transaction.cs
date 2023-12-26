@@ -8,9 +8,11 @@ namespace enterprise_expenses.Models
         [Key]
         public int TransactionId { get; set; }
 
+        [Range(1, int.MaxValue, ErrorMessage = "Category must be selected.")]
         public int CategoryId { get; set; }
         public Category? Category { get; set; } // Navigation property to specify foreign key
 
+        [Range(1, int.MaxValue, ErrorMessage = "Amount must be greater than 0.")]
         public int Amount { get; set; }
 
         [Column(TypeName = "nvarchar(75)")]
