@@ -57,7 +57,6 @@ namespace enterprise_expenses.Controllers
                 {
                     _context.Update(transaction);
                 }
-                _context.Add(transaction);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
