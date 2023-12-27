@@ -5,6 +5,8 @@ An enterprise application built with ASP.NET Core, demonstrating the Model-View-
 
 ☁️ Hosted on Microsoft Azure : "enterprise-expense-tracker.azurewebsites.net"
 
+ https://lnkd.in/ganc5tXH
+
 # The Enterprise Solution to Managing Finances 💰
 
 ## Project Description 🗺️
