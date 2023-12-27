@@ -41,9 +41,11 @@
     <div class="main-content">
     <div class="container mt-5">
         <div class="row justify-content-center">
-            <div class="col-md-10">
+                <div class="@(ViewData["isDashboard"] is null? "col-md-10" : "col-md-12")">
                 <main role="main" class="pb-3">
-                    <div class="row">
+                    @if(ViewData["isDashboard"] is null)
+                    {
+                        <div class="row">
                         <div class="col-md-7">
                             <div class="d-flex flex-column mb-5">
                                 <div class="d-flex mb-1">
@@ -64,6 +66,7 @@
                             </div>
                         </div>
                     </div>
+                    }
                     @RenderBody()
                 </main>
             </div>
