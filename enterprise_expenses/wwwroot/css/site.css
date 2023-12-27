@@ -213,3 +213,11 @@ nav.navbar {
 nav.navbar {
     margin-left: 290px;
 }
+
+/*Logo*/
+
+img.profile-pic {
+    width : 45px;
+    height : 45px;
+    border-radius : 50%
+}
