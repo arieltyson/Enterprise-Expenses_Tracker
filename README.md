@@ -3,7 +3,7 @@
 An enterprise application built with ASP.NET Core, demonstrating the Model-View-Controller architecture
 =======
 
-☁️ Hosted on Microsoft Azure : https://github.com/arieltyson/Enterprise-Expenses_Tracker.git
+☁️ Hosted on Microsoft Azure : "enterprise-expense-tracker.azurewebsites.net"
 
 # The Enterprise Solution to Managing Finances 💰
 
