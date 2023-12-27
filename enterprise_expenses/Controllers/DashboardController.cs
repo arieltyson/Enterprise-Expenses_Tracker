@@ -1,6 +1,7 @@
 ﻿using enterprise_expenses.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 
 namespace enterprise_expenses.Controllers
 {
@@ -43,8 +44,9 @@ namespace enterprise_expenses.Controllers
             // Total Balance
 
             int Balance = TotalIncome - TotalExpenses;
-
-            ViewBag.Balance = Balance.ToString("C0");
+            CultureInfo culture = CultureInfo.CreateSpecificCulture("en-US");
+            culture.NumberFormat.CurrencyNegativePattern = 1;
+            ViewBag.Balance = String.Format(culture, "{0:C0}", Balance);
 
             return View();
         }
