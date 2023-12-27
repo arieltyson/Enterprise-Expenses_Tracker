@@ -42,9 +42,9 @@ namespace enterprise_expenses.Controllers
 
             // Total Balance
 
-            int TotalBalance = TotalIncome - TotalExpenses;
+            int Balance = TotalIncome - TotalExpenses;
 
-            ViewBag.TotalBalance = TotalBalance.ToString("C0");
+            ViewBag.Balance = Balance.ToString("C0");
 
             return View();
         }
