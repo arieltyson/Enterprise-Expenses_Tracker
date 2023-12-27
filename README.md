@@ -2,6 +2,9 @@
 # Expense Tracker 📊
 An enterprise application built with ASP.NET Core, demonstrating the Model-View-Controller architecture
 =======
+
+☁️ Hosted on Microsoft Azure : https://github.com/arieltyson/Enterprise-Expenses_Tracker.git
+
 # The Enterprise Solution to Managing Finances 💰
 
 ## Project Description 🗺️
