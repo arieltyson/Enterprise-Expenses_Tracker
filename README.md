@@ -16,7 +16,29 @@ An enterprise application built with ASP.NET Core, demonstrating the Model-View-
 This project demonstrates the Model-View-Controller architecture through the use of C# and ASP.NET Core.
 An intuitive way to track expenses and visualise trends in money management !
 
-## Project Set-up & Configuration  💻
+## Demo: (App can also be found at its publicly hosted Microsoft Azure Domain: https://enterprise-expense-tracker.azurewebsites.net)
+
+https://github.com/user-attachments/assets/858f7bed-af6a-4e9a-9797-0ad7fa72e5d5
+
+## Screenshots:
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <kbd>
+        <img src="https://github.com/user-attachments/assets/9d3d33b4-4a48-4a8a-8e2f-405faff6b6c8" alt="ExpenseTrackerTransactions" width="500" height="250">
+    </kbd>
+    <kbd>
+        <img src="https://github.com/user-attachments/assets/d6a19cd7-9f91-4802-9d88-c93a5ab675b0" alt="ExpenseTrackerCategories" width="500" height="250">
+    </kbd>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <kbd>
+        <img src="https://github.com/user-attachments/assets/8b23e456-0834-43bb-9d39-7aa2b30f5099" alt="ExpenseTrackerDashboard" width="500" height="250">
+    </kbd>
+    <kbd>
+        <img src="https://github.com/user-attachments/assets/07103ba5-e9b8-4805-ab24-80a4d1104af4" alt="ExpenseTrackerWidgets" width="500" height="250">
+    </kbd>
+</div>
 
 ### Prerequisites 📋
 
