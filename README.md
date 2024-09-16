@@ -5,7 +5,7 @@ An enterprise application built with ASP.NET Core, demonstrating the Model-View-
 
 
 
-☁️ Hosted on Microsoft Azure - Default Domain : https://enterprise-expense-tracker.azurewebsites.net
+☁️ Hosted on Microsoft Azure - Default Domain : https://enterprise-expense-tracker.azurewebsites.net (My Azure student subscription ended today 🥲 (16/09/2024) Actively working on migration)
 
 
 
