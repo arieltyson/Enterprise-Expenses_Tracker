@@ -16,6 +16,10 @@ An enterprise application built with ASP.NET Core, demonstrating the Model-View-
 This project demonstrates the Model-View-Controller architecture through the use of C# and ASP.NET Core.
 An intuitive way to track expenses and visualise trends in money management !
 
+## Demo:
+
+https://github.com/user-attachments/assets/858f7bed-af6a-4e9a-9797-0ad7fa72e5d5
+
 ## Screenshots:
 
 <div style="display: flex; justify-content: center; align-items: center;">
